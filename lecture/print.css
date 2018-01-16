@@ -1,0 +1,58 @@
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+a:link:after, 
+a:visited:after{
+   content: " (URL: " attr(href) ") ";
+   font-size: 90%;
+}
+body{
+	font-family:"arial";
+	background-color:white;
+	color:black;
+    font-size:11px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:"times new roman";
+	margin:2px;
+	color:black;
+}
+p{
+	margin:12px 2px;
+	color:black;
+}
+
+main{
+	width:100%;
+	padding-right:0%;
+}
+session{
+	background-color:#ddd;
+}
+
+h1,h2.h3,h4{
+	margin-top:0;
+	padding-top:0;
+    font-size:12px;
+}
+
+main h1{
+	padding-top:10px;
+	color:#242844;
+	text-shadow: 1px 1px #ccc;
+	text-align:center;
+}
+main h2{
+	color:#823A99;
+	text-shadow: 1px 1px #111;
+}
+
+h2, h2, h4, h5, h6,p,ul{ page-break-after: avoid; }
+
+#footer,#copyright, nav, img{
+    display: none;
+}
+
